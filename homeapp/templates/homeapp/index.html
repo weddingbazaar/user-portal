@@ -54,7 +54,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="{% static 'img/logo.png' %}" alt="logo"/></a>
+                    <a class="navbar-brand" href="{% url 'home:index' %}"><img src="{% static 'img/logo.png' %}" alt="logo"/></a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
@@ -64,7 +64,7 @@
                                                                                            style="background-color: #E91E63"></span></i></a>
                         </li>
 
-                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="active"><a href="{% url 'home:index' %}">Home</a></li>
                         <li class="navhover"><a id="loginbtn" data-toggle="modal" href="javascript:void(0)"
                                                 onclick="openLoginModal()" style="">Login</a></li>
                         <li class="navhover"><a id="logoutbtn" href="javascript:void(0)" onclick="logout()"
@@ -153,9 +153,8 @@
         <div id="main-slider" class="flexslider">
             <ul class="slides">
                 <li>
-                    <div class="image" style="background-image: url('{% static 'img/slides/2.jpg' %}')">< img
-                         src="{% static 'img/slides/1.jpg' %}"
-                         alt=""/>
+                    <div class="image" style="background-image: url('{% static 'img/slides/2.jpg' %}')">
+{#                        <img src="{% static 'img/slides/1.jpg' %}" alt=""/>#}
                     <div class="flex-caption">
                         <h3>Complete Wedding Solution</h3>
                         <p>Wedding Bazaar is your Celebration Partner</p>
