@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Wedding Bazaar | One stop wedding solution | Wedding Services & Vendors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="keywords"
+          content="delhi wedding vendors, photographers, caterers, vendor reviews, deals, wedding events, marriage function, shaadi, wedding planning tools, wedding website"/>
+    <meta name="description"
+          content=" Wedding Services  – Best vendors in City! Find and book services hassle free! Check Deals, Events, Ideas. Search Photos, Wedding Planners, Banquets, Venues &amp; more Wedding Services."/>
+    <meta name="robots" content="index,follow"/>
+    <!-- css -->
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet"/>
+    <!-- <script src="js/login.js"></script> -->
+    <!-- <script src="js/parse.js"></script> -->
+    <link href="{% static 'css/fancybox/jquery.fancybox.css' %}" rel="stylesheet">
+    <!-- <link href="css/jcarousel.css" rel="stylesheet" /> -->
+    <link href="{% static 'css/flexslider.css' %}" rel="stylesheet"/>
+    <!-- <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet"> -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/indexstyle.css' %}">
+    <!-- <link href="bootstrap.css" rel="stylesheet" /> -->
+    <!-- <script type="text/javascript" src="js/search.js"></script> -->
+    <link href="{% static 'css/login-register.css' %}" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+
+
+    <!-- <link href="login-register.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    <!--<script src="js/jquery/jquery-1.10.2.js" type="text/javascript"></script>-->
+    <!--<script src="js/bootstrap3/js/bootstrap.js" type="text/javascript"></script>-->
+    <script src="{% static 'js/login-register.js' %}" type="text/javascript"></script>
+
+
+</head>
+<body onload="" style="min-width: 500px">
+<script>
+    // Initialize Parse
+</script>
+
+<div id="wrapper" class="home-page">
+    <!-- start header -->
+    <header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="{% static 'img/logo.png' %}" alt="logo"/></a>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+
+                        <li class="navhover "><a href="wishlist.html" title="Wedding Checklist"><i
+                                class="fa fa-heart fa-2x " style=" padding-top:4px;"><span class="badge"
+                                                                                           style="background-color: #E91E63"></span></i></a>
+                        </li>
+
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="navhover"><a id="loginbtn" data-toggle="modal" href="javascript:void(0)"
+                                                onclick="openLoginModal()" style="">Login</a></li>
+                        <li class="navhover"><a id="logoutbtn" href="javascript:void(0)" onclick="logout()"
+                                                style="display: none;">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="modal fade login" id="loginModal">
+        <div class="modal-dialog login animated">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Login with</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="box">
+                        <div class="content">
+                            <div class="social">
+                                <a id="facebook_login" class="circle facebook" href="#"
+                                   onclick="fblogin();return false;">
+                                    <i class="fa fa-facebook fa-fw"></i>
+                                </a>
+
+                                <a id="google_login" class="circle google" href="">
+                                    <i class="fa fa-google-plus fa-fw"></i>
+                                </a>
+                            </div>
+                            <div class="division">
+                                <div class="line l"></div>
+                                <span>or</span>
+                                <div class="line r"></div>
+                            </div>
+                            <div class="error"></div>
+                            <div class="form loginBox">
+                                <form method="post" action="/login" accept-charset="UTF-8">
+                                    <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                    <input id="password" class="form-control" type="password" placeholder="Password"
+                                           name="password">
+                                    <input class="btn btn-default btn-login" type="button" value="Login" href="#"
+                                           onclick="login();return false;">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="content registerBox" style="display:none;">
+                            <div class="form">
+                                <form id="snform" method="post" html="{:multipart=>true}" data-remote="true"
+                                      action="/register" accept-charset="UTF-8">
+                                    <input id="snemail" class="form-control" type="text" placeholder="Email"
+                                           name="email">
+                                    <input id="snpassword" class="form-control" type="password" placeholder="Password"
+                                           name="password">
+                                    <input id="password_confirmation" class="form-control" type="password"
+                                           placeholder="Repeat Password" name="password_confirmation">
+                                    <input class="btn btn-default btn-register" type="submit" value="Create account"
+                                           name="commit" href="#" onclick=" signup();return false;">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="forgot login-footer">
+                            <span>
+                                 <a href="javascript: showRegisterForm();">Create an account</a>?
+								<a href="javascript: forgotpass();">Forgot Password</a>?
+							</span>
+                    </div>
+                    <div class="forgot register-footer" style="display:none">
+                        <span>Already have an account?</span>
+                        <a href="javascript: showLoginForm();">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <section id="banner">
+
+        <!-- Slider -->
+        <div id="main-slider" class="flexslider">
+            <ul class="slides">
+                <li>
+                    <div class="image" style="background-image: url('{% static 'img/slides/2.jpg' %}')">< img
+                         src="{% static 'img/slides/1.jpg' %}"
+                         alt=""/>
+                    <div class="flex-caption">
+                        <h3>Complete Wedding Solution</h3>
+                        <p>Wedding Bazaar is your Celebration Partner</p>
+                        <div class="form-inline" id="search">
+                            <div class="row">
+                                <div class="  form-inline">
+								<span class="input-group form-inline ">
+
+									<select class="form-control " id="place" style="">
+										<option>Choose a City...</option>
+                                        <!--<option value="noida">Noida</option>-->
+										<option value="delhi">Delhi/NCR</option>
+										<option value="delhi" disabled>Coming Soon...</option>
+									</select>
+									<select class="form-control " id="category" style="" onchange="subcat()">
+										<option value="none">Choose a category</option>
+										<option value="aprl">Apparels & Clothing</option>
+										<option value="astro">Astro/Pundit</option>
+										<option value="beauty">Beauty & Grooming</option>
+										<option value="travel">Travel/Transportation</option>
+										<option value="events">Events</option>
+										<option value="music">Music & Entertainment</option>
+										<option value="venue">Venues</option>
+										<option value="service">Services</option>
+										<option value="agent">Wedding Agents</option>
+
+									</select>
+									<select class="form-control " id="ms" style="">
+										<option value="none">Choose a category first.</option>
+									</select>
+      								<span class="input-group-btn " id="inputbutton">
+										<button class="btn btn-primary" id="butn"
+                                                onclick="subm()">Find Vendors!</button>
+      								</span>
+								</span><!-- /input-group -->
+                                </div><!-- /.col-lg-6 -->
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- end carousel -->
+
+    </section>
+
+
+    <!-- Expanding cards -->
+
+
+    <style>
+        .productbox {
+            background-color: #ffffff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-right: 1px solid #fdfdfd;
+        }
+
+        .producttitle {
+            font-weight: bold;
+            padding: 5px 0 5px 0;
+        }
+
+        .productprice {
+            border-top: 1px solid #dadada;
+            padding-top: 5px;
+        }
+
+        .pricetext {
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+    </style>
+
+    <section class="callaction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="aligncenter"><h1 class="aligncenter">Features</h1></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row text-center">
+            <a href="#" style="text-decoration:none;">
+                <div class="col-md-3 col-sm-6 col-lg-offset-2  col-xs-12 productbox card">
+                    <img src="{% static 'img/card13.png' %}" class="img-responsive">
+                    <div class="producttitle"></div>
+                    <div class="productprice">
+                        <div class="producttitle">Search</div>
+                        <p style="color:#222;">Look up on the go</p></div>
+                </div>
+            </a>
+            <a href="#" style="text-decoration:none;">
+                <div class="col-md-3 col-sm-6 col-xs-12 productbox card">
+                    <img src="{% static 'img/card11.jpg' %}" class="img-responsive">
+                    <div class="producttitle"></div>
+                    <div class="productprice">
+                        <div class="producttitle">Advanced Search</div>
+                        <p style="color:#222;">Customized to your needs</p></div>
+                </div>
+            </a>
+
+            <a href="#contactModal" role="button" data-toggle="modal" style="text-decoration:none;">
+                <div class="col-md-3 col-sm-6 col-xs-12 column productbox card">
+                    <img src="{% static 'img/card12.png' %}" class="img-responsive">
+                    <div class="producttitle"></div>
+                    <div class="productprice">
+                        <div class="producttitle">Personalized Solution</div>
+                        <p style="color:#222;">Free support from us</p></div>
+                </div>
+            </a>
+            <script></script>
+            <a href="#smallModal" role="button" data-toggle="modal" style="text-decoration:none;">
+                <div class="col-md-3 col-sm-6 col-xs-12 column productbox card">
+                    <img src="{% static 'img/card14.jpg' %}" class="img-responsive">
+                    <div class="producttitle"></div>
+                    <div class="productprice">
+                        <div class="producttitle">Shop</div>
+                        <p style="color:#222;">All your wedding needs</p></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" id="smallModal"
+         aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">Coming Soon!</h3>
+                </div>
+                <div class="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <br><br>
+
+
+    <!-- Banner
+
+<section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="aligncenter"><h1 class="aligncenter" style="color:#fff; font-family:calibri; font-weight:lighter;">CUSTOMIZED WEDDING PACKAGE</h1></div>
+                <br>
+                <div class="aligncenter"><h3 class="aligncenter" style="color:#fff; font-family:calibri; font-weight:lighter; font-size:1.7em"><em>Contact us for more details</em></h3></div>
+                <div class="aligncenter"><style>.myButton {
+    -moz-box-shadow:inset 0px 0px 0px 0px #3dc21b;
+    -webkit-box-shadow:inset 0px 0px 0px 0px #3dc21b;
+    box-shadow:inset 0px 0px 0px 0px #3dc21b;
+
+    background-color:transparent;
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:24px;
+    padding:12px 12px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:#fff;
+    text-decoration:none;
+    color:#FF5869;
+}
+.myButton:active {
+    position:relative;
+    background-color:rgba(255, 88, 105, 0.6);
+
+}
+ </style> <button class="myButton" href="#contactModal" role="button" data-toggle="modal" >Custom Package &#8250;</button></div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+ <!--Banner End's -->
+
+
+    <div id="contactModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">We'd Give You A Call</h3>
+                </div>
+                <div class="modal-body">
+                    <form class="form-horizontal col-sm-12">
+                        <div class="form-group"><label>Name</label><input class="form-control required"
+                                                                          placeholder="Your name" data-placement="top"
+                                                                          data-trigger="manual"
+                                                                          data-content="Must be at least 3 characters long, and must only contain letters."
+                                                                          type="text"></div>
+                        <div class="form-group"><label>Message</label><textarea class="form-control"
+                                                                                placeholder="Your message here.."
+                                                                                data-placement="top"
+                                                                                data-trigger="manual"></textarea></div>
+                        <div class="form-group"><label>E-Mail</label><input class="form-control email"
+                                                                            placeholder="email@you.com "
+                                                                            data-placement="top" data-trigger="manual"
+                                                                            data-content="Must be a valid e-mail address (user@gmail.com)"
+                                                                            type="text"></div>
+                        <div class="form-group"><label>Phone</label><input class="form-control phone"
+                                                                           placeholder="999-999-9999 (so that we can contact you)"
+                                                                           data-placement="top" data-trigger="manual"
+                                                                           data-content="Must be a valid phone number (999-999-9999)"
+                                                                           type="text"></div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success pull-right">Send It!</button>
+                            <p class="help-block pull-left text-danger hide" id="form-error">&nbsp; The form is not
+                                valid. </p></div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--- category begin here -->
+
+
+    <section class="callaction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="aligncenter"><h3 class="aligncenter">Categories for all your needs</h3></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .icondown {
+            height: 70px;
+            width: 70px;
+        }
+
+        .icondown:hover {
+            position: relative;
+            -webkit-transform: scale(1.6);
+            -moz-transform: scale(1.6);
+            -ms-transform: scale(1.6);
+            -o-transform: scale(1.6);
+            transform: rotate scale(1.6);
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+            z-index: 1000;
+        }</style>
+
+    <div class="container">
+        <ul class="list-inline row">
+            <li class="col-sm-4 ">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/apperals.png' %}"
+                             alt="Apparels">
+                        <div>
+                            <p class="aligncenter">Apparels</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/pundit.jpg' %}"
+                             alt="Astrologer">
+                        <div>
+                            <p class="aligncenter">Astro</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/grooming.png' %}"
+                             alt="grooming">
+                        <div>
+                            <p class="aligncenter">Grooming</p>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+            <li class="col-sm-4">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/event.png' %}" alt="events">
+                        <div>
+                            <p class="aligncenter">Events</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/travel.png' %}"
+                             alt="transport">
+                        <div>
+                            <p class="aligncenter">Transport</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/venue.jpg' %}" alt="Venue">
+                        <div>
+                            <p class="aligncenter">Venues</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </li>
+            <li class="col-sm-4">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/music.png' %}" alt="Music">
+                        <div>
+                            <p class="aligncenter">Music/Band</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/services.png' %}"
+                             alt="Services">
+                        <div>
+                            <p class="aligncenter">Services</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img class="icondown img-responsive" src="{% static 'img/categories/agents.png' %}"
+                             alt="agents">
+                        <div>
+                            <p class="aligncenter">Agents</p>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+    <hr class="margin-bottom-50">
+    <!-- category end here -->
+
+    <style>@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic);
+
+    .thumbnail2 {
+        position: relative;
+        padding: 0px;
+        margin-bottom: 20px;
+
+    }
+
+    .thumbnail2: hover {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-caption {
+        bottom: 15px;
+    }
+
+    .carousel-caption h3 {
+        color: white;
+    }
+
+    .thumbnail2 img {
+        width: 100%;
+    }
+
+    </style>
+
+    <section class="callaction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="aligncenter"><h3 class="aligncenter">Popular Cities</h3></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container" style="padding:70px;" id="tourpackages-carousel">
+
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="thumbnail2">
+                    <img src="{% static 'img/cities/delhi.jpg' %}" alt="">
+                    <div class="carousel-caption">
+                        <h3>DELHI/NCR</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="thumbnail2">
+                    <img src="{% static 'img/cities/mumbai.jpg' %}" alt="">
+                    <div class="carousel-caption">
+                        <h3>MUMBAI</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="thumbnail2">
+                    <img src="{% static 'img/cities/chandigarh.jpg' %}" alt="">
+                    <div class="carousel-caption">
+                        <h3>CHANDIGARH</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="thumbnail2">
+                    <img src="{% static 'img/cities/bangalore.jpg' %}" alt="">
+                    <div class="carousel-caption">
+                        <h3>BANGALORE</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="thumbnail2">
+                    <img src="{% static 'img/cities/kolkata.jpg' %}" alt="">
+                    <div class="carousel-caption">
+                        <h3>KOLKATA</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="thumbnail2">
+                    <img src="{% static 'img/cities/hyderabad.jpg' %}" alt="">
+                    <div class="carousel-caption">
+                        <h3>HYDERABAD</h3>
+                    </div>
+                </div>
+            </div>
+        </div><!-- End row -->
+
+    </div><!-- End container -->
+
+
+    <hr class="margin-bottom-50">
+    <section class="callaction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="aligncenter"><h1 class="aligncenter">Other Services</h1>Are you worried about doing
+                        arrangments for your wedding in little time? We know how painful it can be.
+                        </br>You are at the right place, just begin with choosing a serive and we deliver to you best
+                        solution from best vendors in town at your doorstep.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="content">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="skill-home">
+                    <div class="skill-home-solid clearfix">
+                        <div class="col-md-3 text-center">
+                            <a href="wedding-loan.html"><span class="icons "><img
+                                    src="{% static 'img/icons/loan.png' %}"
+                                    class="thumbnail2"/></span>
+                                <div class="box-area">
+                                    <h3>Wedding Loan</h3>
+                            </a>
+                            <p>Marriage is one of life's happiest occasions, we help you deal with all the expenses that
+                                come with starting a new life together</p></div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <a href="marriage-registry.html"><span class="icons "><img
+                                src="{% static 'img/icons/registry.png' %}"
+                                class="thumbnail2"/></span>
+                            <div class="box-area">
+                                <h3>Marriage Registry</h3>
+                        </a>
+                        <p>We ensure that most of the process of marriage registration is completed from the comfort of
+                            your home and without any hassles</p></div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#contactModal" role="button" data-toggle="modal"><span class="icons "><img
+                            src="{% static 'img/icons/custom.png' %}" class="thumbnail2"/></span>
+                        <div class="box-area">
+                            <h3>Custom Solution</h3>
+                    </a>
+                    <p>We get you best possible solution for all your needs from best vendors in town within your
+                        budget, contact us for amazing offers</p>
+                </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <a href="http://www.starstudioz.com"><span class="icons"><img src="{% static 'img/icons/new.png' %}"
+                                                                              class="thumbnail2"/></span>
+                    <div class="box-area">
+                        <h3>What's New?</h3>
+                </a>
+                <p>We have some exciting products with awesome new technologies to make your wedding day the most
+                    cherrished day of your life</p></div>
+        </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<hr class="margin-bottom-50">
+<!-- Why Us section starts -->
+
+
+<section class="callaction">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="aligncenter"><h1 class="aligncenter">Why choose us?</h1></div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <!-- Info Blcoks -->
+    <div class="row">
+        <div class="col-sm-4  info-blocks">
+            <i class="icon-info-blocks fa fa-flag-o"></i>
+            <div class="info-blocks-in">
+                <h3>Best Vendors</h3>
+                <p>We help you find the best vendors in town to make your wedding the most cherished event of your
+                    life</p>
+            </div>
+        </div>
+        <div class="col-sm-4 info-blocks">
+            <i class="icon-info-blocks fa fa-hdd-o"></i>
+            <div class="info-blocks-in">
+                <h3>Quick Response</h3>
+                <p>We offer you a personal follow up over phone, as soon as you register with us</p>
+            </div>
+        </div>
+        <div class="col-sm-4 info-blocks">
+            <i class="icon-info-blocks fa fa-thumbs-o-up"></i>
+            <div class="info-blocks-in">
+                <h3>Great Listing</h3>
+                <p>We have a listing of hand picked vendors to make your wedding a memorable one for lifetime</p>
+            </div>
+        </div>
+
+        <div class="col-sm-4 info-blocks">
+            <i class="icon-info-blocks fa fa-calendar-check-o"></i>
+            <div class="info-blocks-in">
+                <h3>Save Time</h3>
+                <p>You dont have to go around looking for people, on selected dates, we have everything here for you</p>
+            </div>
+        </div>
+        <div class="col-sm-4 info-blocks">
+            <i class="icon-info-blocks fa fa-rupee"></i>
+            <div class="info-blocks-in">
+                <h3>Save Money</h3>
+                <p>Clear pricing from local vendors around you to help you find the best serivce matching your budge</p>
+            </div>
+        </div>
+        <div class="col-sm-4 info-blocks">
+            <i class="icon-info-blocks fa fa-send-o"></i>
+            <div class="info-blocks-in">
+                <h3>Additional Services</h3>
+                <p>We offer amazing services, connect to know more</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Info Blcoks -->
+
+<hr class="margin-bottom-50">
+
+<!-- Testimonial Start -->
+<section class="testimonial-area">
+    <div class="testimonial-solid">
+        <div class="container">
+            <div class="quote">
+                <i class="fa fa-quote-left fa-2x"></i>
+            </div>
+            <br>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
+                        <a href="#"></a>
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <p>Wedding Bazaar has made my daughter's wedding real memorable. Everybody was asking so
+                            impressed with their innovative products that they will remember it for their lifetime.
+                            Thanks & all the best...</p>
+                        <p>
+                            <b>- R.N. Singhal -</b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>Wedding Bazaar has made my daughter's wedding real memorable. Everybody was asking so
+                            impressed with their innovative products that they will remember it for their lifetime.
+                            Thanks & all the best...</p>
+                        <p>
+                            <b>- R.N. Singhal -</b>
+                        </p>
+                    </div>
+                    <div class="item active">
+                        <p>Wedding Bazaar has made my daughter's wedding real memorable. Everybody was asking so
+                            impressed with their innovative products that they will remember it for their lifetime.
+                            Thanks & all the best...</p>
+                        <p>
+                            <b>- R.N. Singhal -</b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>Wedding Bazaar has made my daughter's wedding real memorable. Everybody was asking so
+                            impressed with their innovative products that they will remember it for their lifetime.
+                            Thanks & all the best...</p>
+                        <p>
+                            <b>- R.N. Singhal -</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER BEGINS HERE -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="widget">
+                    <h5 class="widgetheading">Company</h5>
+                    <ul class="link-list">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="#contactModal" role="button" data-toggle="modal">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="widget">
+                    <h5 class="widgetheading">Quick Links</h5>
+                    <ul class="link-list">
+                        <li><a href="#">Latest Events</a></li>
+                        <li><a href="#">Terms and conditions</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="widget">
+                    <h5 class="widgetheading">Our Contact</h5>
+                    <address>
+                        <strong>Wedding Bazaar</strong><br>
+                        R-1/88, RDC, Raj Nagar,<br>
+                        Ghaziabad
+                    </address>
+                    <p>
+                        <i class="icon-phone"></i> (+91) 9910-386-387<br>
+                        <i class="icon-envelope-alt"></i> hello@weddingbazaar.in
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div id="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="copyright">
+                        <p>
+                            <span>&copy; weddingbazaar.in | 2015 All right reserved | </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="social-network">
+                        <li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{% static 'js/jquery.js' %}"></script>
+<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/jquery.fancybox.pack.js' %}"></script>
+<script src="{% static 'js/jquery.fancybox-media.js' %}"></script>
+<script src="{% static 'js/portfolio/jquery.quicksand.js' %}"></script>
+<script src="{% static 'js/portfolio/setting.js' %}"></script>
+<script src="{% static 'js/jquery.flexslider.js' %}"></script>
+<script src="{% static 'js/animate.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+<!-- <script src="js/owl-carousel/owl.carousel.js"></script> -->
+<script>
+    $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').focus()
+    })
+</script>
+</div>
+</body>
+</html>
