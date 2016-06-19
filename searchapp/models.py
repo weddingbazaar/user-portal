@@ -88,7 +88,7 @@ class VendorInfo(models.Model):
              ('accessories', 'Wedding Accessories'),
          ),
          'Agents', (
-             ('detective', ''),
+             ('detective', 'Detective'),
              ('matrimonialagent', 'Matrimonial Agent'),
              ('cookinginstructor', 'Cooking Instructor'),
          ),
