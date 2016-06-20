@@ -158,8 +158,8 @@
                     <div class="image" style="background-image: url('{% static 'img/slides/2.jpg' %}')">
                         {#                        <img src="{% static 'img/slides/1.jpg' %}" alt=""/>#}
                         <div class="flex-caption">
-                            <h3>Complete Wedding Solution</h3>
-                            <p>Wedding Bazaar is your Celebration Partner</p>
+                            {% block header-text %}
+                            {% endblock %}
                             <div class="form-inline" id="search">
                                 <div class="row">
                                     <div class="  form-inline">
@@ -206,37 +206,37 @@
         <!-- end carousel -->
 
     </section>
-{% block body %}
+    {% block body %}
 
 
-    {% if messages %}
+        {% if messages %}
+            <div>
+                <strong>Messages:</strong>
+                <ul>
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+
         <div>
-            <strong>Messages:</strong>
+            <strong>Menu:</strong>
             <ul>
-                {% for message in messages %}
-                    <li>{{ message }}</li>
-                {% endfor %}
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'account_email' %}">Change E-mail</a></li>
+                    <li><a href="{% url 'account_logout' %}">Sign Out</a></li>
+                {% else %}
+                    <li><a href="{% url 'account_login' %}">Sign In</a></li>
+                    <li><a href="{% url 'account_signup' %}">Sign Up</a></li>
+                {% endif %}
             </ul>
         </div>
-    {% endif %}
-
-    <div>
-        <strong>Menu:</strong>
-        <ul>
-            {% if user.is_authenticated %}
-                <li><a href="{% url 'account_email' %}">Change E-mail</a></li>
-                <li><a href="{% url 'account_logout' %}">Sign Out</a></li>
-            {% else %}
-                <li><a href="{% url 'account_login' %}">Sign In</a></li>
-                <li><a href="{% url 'account_signup' %}">Sign Up</a></li>
-            {% endif %}
-        </ul>
-    </div>
-    {% block content %}
+        {% block content %}
+        {% endblock %}
     {% endblock %}
-{% endblock %}
-{% block extra_body %}
-{% endblock %}
+    {% block extra_body %}
+    {% endblock %}
     <!-- FOOTER BEGINS HERE -->
     <footer>
         <div class="container">
@@ -245,8 +245,8 @@
                     <div class="widget">
                         <h5 class="widgetheading">Company</h5>
                         <ul class="link-list">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Careers</a></li>
                             <li><a href="#contactModal" role="button" data-toggle="modal">Feedback</a></li>
                         </ul>
                     </div>
@@ -329,7 +329,22 @@
 <script>
     $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').focus()
-    })
+    });
+    $('button').addClass('btn btn-primary');
+    $('form').addClass('form-group');
+    {#    $('body').addClass('container-fluid');#}
+    $('form').css('text-align', 'center');
 </script>
+{% block header-style %}
+    <style>
+        .image {
+            height: 300px;
+        }
+
+        #search {
+            padding: 0;
+        }
+    </style>
+{% endblock %}
 </body>
 </html>
