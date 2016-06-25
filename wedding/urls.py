@@ -18,8 +18,8 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'', include('homeapp.urls')),
-    url(r'^search/', include('searchapp.urls')),
+    url(r'', include('homeapp.urls', namespace="home")),
+    url(r'^search/', include('searchapp.urls', namespace="search")),
 
     # django allauth urls
     url(r'^accounts/', include('allauth.urls')),

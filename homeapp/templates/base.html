@@ -162,8 +162,9 @@
                         <div class="flex-caption">
                             {% block header-text %}
                             {% endblock %}
-                            <form method="GET" action="{% url 'searchapp:search' %}"
+                            <form method="GET" action="{% url 'search:search' %}"
                                   class="form-inline row input-group" id="search">
+                                {% csrf_token %}
                                 <select class="form-control " id="place" style="" name="city" title="City" required>
                                     <option>Choose a City...</option>
                                     <!--<option value="noida">Noida</option>-->
@@ -171,7 +172,6 @@
                                     <option value="delhi" disabled>Coming Soon...</option>
                                 </select>
 
-                                {% csrf_token %}
 
                                 <select class="form-control " id="category" style="" onchange="subcat()"
                                         title="Category" name="category" required>
