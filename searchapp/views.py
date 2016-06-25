@@ -8,6 +8,7 @@ from django.http import HttpResponse
 def search(request):
     # return render(request, 'homeapp/index.html')
     # return HttpResponse('<h3>search detail for :'+str(city)+str(category)+' </h3>')
+    print "##########################", request
     if request.method == 'GET':
         city = request.GET['city']
         category = request.GET['category']
