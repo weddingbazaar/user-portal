@@ -162,9 +162,8 @@
                         <div class="flex-caption">
                             {% block header-text %}
                             {% endblock %}
-                            <form method="POST" action="" class="form-inline row input-group" id="search">
-                                {#								<span class="input-group form-inline ">#}
-
+                            <form method="GET" action="{% url 'searchapp:search' %}"
+                                  class="form-inline row input-group" id="search">
                                 <select class="form-control " id="place" style="" name="city" title="City" required>
                                     <option>Choose a City...</option>
                                     <!--<option value="noida">Noida</option>-->

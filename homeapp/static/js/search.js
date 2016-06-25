@@ -47,11 +47,12 @@ var subcatli={"aprl":[{"value":"boutique","name":"Boutique"},
                        {"value":"cookinstr","name":"Cooking Instructor"}]};
 function subcat(){
     var cat=$("#category").find('option:selected').val().toString();
+    var options=''
     //console.log(cat);
     if(cat=='none'){
         //console.log(cat);
-        $("#ms").empty();
-        var options='<option value="none">Choose a category first.</option>'
+        $('#ms').empty();
+        options='<option value="none">Choose a category first.</option>'
         $("#ms").append(options);
     }
     else {
@@ -59,7 +60,7 @@ function subcat(){
         //console.log(subcatli[cat]);
         var len = subcatli[cat].length;
         //console.log(len);
-        var options=''
+        options='';
         $("#ms").empty();
         for(var i=0;i<len;i++) {
             //console.log(i+' '+subcatli[cat][i].value+','+subcatli[cat][i].name);
