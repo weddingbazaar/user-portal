@@ -8,9 +8,10 @@ from django.http import HttpResponse
 def search(request):
     # return render(request, 'homeapp/index.html')
     # return HttpResponse('<h3>search detail for :'+str(city)+str(category)+' </h3>')
-    if request.method == 'GET':
-        city = request.GET['city']
-        category = request.GET['category']
-        subcat = request.GET['subcateg']
+    print(request)
+    if request.method == 'POST':
+        city = request.POST['city']
+        category = request.POST['category']
+        subcat = request.POST['subcateg']
         return HttpResponse(
-            '<h3>search detail for : ' + str(city) + ', cat: '  + str(category) + ', sub: ' + str(subcat) + ' </h3>')
+            '<h3>search detail for : ' + str(city) + ', cat: ' + str(category) + ', sub: ' + str(subcat) + ' </h3>')

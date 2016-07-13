@@ -5,6 +5,6 @@ app_name = 'searchapp'
 
 urlpatterns = [
 
-    url(r'^(?P<city>[a-z]+)/(?P<category>[a-z]+)$', views.search, name='search'),
-    # url(r'^$', views.search, name='search'),
+    # url(r'^(?P<city>[a-z]+)/(?P<category>[a-z]+)$', views.search, name='search'),
+    url(r'^$', views.search, name='search'),
 ]
