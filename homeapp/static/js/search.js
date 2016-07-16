@@ -1,58 +1,58 @@
 /**
  * Created by Abhishek on 10-10-2015.
  */
-var subcatli={"aprl":[{"value":"boutique","name":"Boutique"},
-                      {"value":"fasdes","name":"Fashion Designer"},
-                      {"value":"grmwr","name":"Groom Wear"},
-                      {"value":"lehnga","name":"Lehenga/Saree"},
+var subcatli={"apparel":[{"value":"boutique","name":"Boutique"},
+                      {"value":"fashiondesigner","name":"Fashion Designer"},
+                      {"value":"groomwear","name":"Groom Wear"},
+                      {"value":"lehengasaree","name":"Lehenga/Saree"},
                       {"value":"lingerie","name":"Lingerie"},
                       {"value":"jewellery","name":"Jewellery"}],
               "astro":[{"value":"astrologer","name":"Astrologer"},
-                       {"value":"pandit","name":"Pandit"},
+                       {"value":"pundit","name":"Pandit"},
                        {"value":"temple","name":"Temple"}],
-              "beauty":[{"value":"parlour","name":"Beauty Parlour"},
+              "grooming":[{"value":"beautyparlour","name":"Beauty Parlour"},
                         {"value":"diet","name":"Dietitian & Nutritionist"},
                         {"value":"gym","name":"Gym"},
                         {"value":"makeup","name":"Make Up Artist"},
                         {"value":"mehendi","name":"Mehendi"},
-                        {"value":"nail","name":"Nail Artist"},
+                        {"value":"nailartist","name":"Nail Artist"},
                         {"value":"spa","name":"Spa"}],
-              "travel":[{"value":"car","name":"Luxury Car rent"},
+              "travel":[{"value":"luxurycar","name":"Luxury Car rent"},
                         {"value":"taxi","name":"Taxi"},
-                        {"value":"tragent","name":"Travel Agent"}],
-              "events":[{"value":"management","name":"Event Management"},
-                        {"value":"performer","name":"Live Performer"},
-                        {"value":"planner","name":"Wedding planner"}],
+                        {"value":"travelagent","name":"Travel Agent"}],
+              "events":[{"value":"eventmanagement","name":"Event Management"},
+                        {"value":"liveperformer","name":"Live Performer"},
+                        {"value":"weddingplanner","name":"Wedding planner"}],
               "music":[{"value":"band","name":"Band"},
                         {"value":"choreo","name":"Choreographers"},
                         {"value":"disco","name":"Disco"},
                         {"value":"dj","name":"Dj"},
                         {"value":"singer","name":"Singer"}],
-              "venue":[{"value":"banquet","name":"Banquets"},
-                       {"value":"farm","name":"Farmhouse"},
+              "venue":[{"value":"banquets","name":"Banquets"},
+                       {"value":"farmhouse","name":"Farmhouse"},
                        {"value":"hotel","name":"Hotel"},
-                       {"value":"tent","name":"Tent House"}],
-              "service":[{"value":"caterer","name":"Caterers"},
-                         {"value":"confectioner","name":"Confectionery & Chocolates"},
-                         {"value":"firework","name":"Fireworks"},
-                         {"value":"florist","name":"Florists"},
-                         {"value":"card","name":"Invitation Card"},
+                       {"value":"tenthouse","name":"Tent House"}],
+              "services":[{"value":"caterers","name":"Caterers"},
+                         {"value":"confectionery","name":"Confectionery & Chocolates"},
+                         {"value":"fireworks","name":"Fireworks"},
+                         {"value":"florists","name":"Florists"},
+                         {"value":"invitationcard","name":"Invitation Card"},
                          {"value":"loan","name":"Loan"},
-                         {"value":"maid","name":"Maid & Servants"},
+                         {"value":"maidservent","name":"Maid & Servants"},
                          {"value":"photographer","name":"Photographers"},
                          {"value":"gift","name":"Wedding Gifts"},
                          {"value":"accessories","name":"Wedding Accessories"}],
               "agent":[{"value":"detective","name":"Detectives"},
-                       {"value":"matragent","name":"Matrimonial Agent"},
-                       {"value":"cookinstr","name":"Cooking Instructor"}]};
+                       {"value":"matrimonialagent","name":"Matrimonial Agent"},
+                       {"value":"cookinginstructor","name":"Cooking Instructor"}]};
 function subcat(){
     var cat=$("#category").find('option:selected').val().toString();
-    var options=''
+    var options='';
     //console.log(cat);
     if(cat=='none'){
         //console.log(cat);
         $('#ms').empty();
-        options='<option value="none">Choose a category first.</option>'
+        options='<option  selected="selected" disabled>Choose a category first.</option>'
         $("#ms").append(options);
     }
     else {
@@ -66,9 +66,16 @@ function subcat(){
             //console.log(i+' '+subcatli[cat][i].value+','+subcatli[cat][i].name);
             options += '<option value="'  +subcatli[cat][i].value +'" style="">' +subcatli[cat][i].name +'</option>';
         }
-        options='<option value="none">Choose a category first.</option>'+options;
+        options='<option  selected="selected" disabled>Choose a category first.</option>'+options;
         $("#ms").html(options);
     }
+}
+
+function urlcode() {
+    var city=$('#place').val();
+    // var cat=$('#category').val();
+    var subcat=$('#ms').val();
+    $("#search").prop('action',"search/"+city+"/"+subcat+"");
 }
 
 //

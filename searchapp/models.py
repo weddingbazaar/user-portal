@@ -7,6 +7,11 @@ from django.contrib.auth.models import User
 
 
 class VendorInfo(models.Model):
+    user = models.ForeignKey(
+        User,
+        null=True,
+        on_delete=models.CASCADE,
+    )
     business_name = models.CharField(max_length=1024, default='Test')
     # combine first name & last name for owner
     first_name = models.CharField(max_length=1024)
