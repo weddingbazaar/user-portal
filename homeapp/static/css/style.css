@@ -465,18 +465,18 @@ section.callaction {
       cursor: pointer;
       /*box-shadow: 0px 0px 2px 0px rgb(155, 155, 155);*/
       border-radius: 8px; }
-  #clients .client .client1 {
-    background: url("../img/client1.png") 0 -75px; }
-    #clients .client .client1:hover {
-      background-position: 1px 0px; }
-  #clients .client .client2 {
-    background: url("../img/client2.png") 0 -75px; }
-    #clients .client .client2:hover {
-      background-position: -1px 0px; }
-  #clients .client .client3 {
-    background: url("../img/client3.png") 0 -76px; }
-    #clients .client .client3:hover {
-      background-position: 0px 0px; }
+  /*#clients .client .client1 {*/
+    /*background: url("../img/client1.png") 0 -75px; }*/
+    /*#clients .client .client1:hover {*/
+      /*background-position: 1px 0px; }*/
+  /*#clients .client .client2 {*/
+    /*background: url("../img/client2.png") 0 -75px; }*/
+    /*#clients .client .client2:hover {*/
+      /*background-position: -1px 0px; }*/
+  /*#clients .client .client3 {*/
+    /*background: url("../img/client3.png") 0 -76px; }*/
+    /*#clients .client .client3:hover {*/
+      /*background-position: 0px 0px; }*/
 
 
 /* Content
@@ -564,7 +564,7 @@ section.banner {
     font-weight: 300;
     margin-bottom: 20px;
     position: relative;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 
@@ -1483,7 +1483,7 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
+ /*============================= *!*/
 
 .clear-marginbot{
 	margin-bottom:0;
@@ -1711,7 +1711,7 @@ top: 150px; background-color: transparent; color: #fff; margin: 0; padding: 10px
 .flex-caption p {margin: 6px 0 18px;font-size:18px;}
 }
 
-  }
+  /*}*/
 
 @media (max-width: 480px) {
 	.bottom-article a.pull-right {
@@ -1762,7 +1762,7 @@ top: 150px; background-color: transparent; color: #fff; margin: 0; padding: 10px
     width: 200px;
 }
 .card:hover {
-    background: rgba(f, f, f, 1);
+    background: rgba(0, 0, 0, 1);
     margin:-10;
     -webkit-transform: scale(1.15);
     -moz-transform: scale(1.15);
