@@ -12,14 +12,14 @@ class VendorInfo(models.Model):
         null=True,
         on_delete=models.CASCADE,
     )
-    business_name = models.CharField(max_length=1024, default='Test')
+    business_name = models.CharField(max_length=100, default='Test')
     # combine first name & last name for owner
     first_name = models.CharField(max_length=1024)
     last_name = models.CharField(max_length=1024)
 
     address = models.CharField(max_length=2048)
     # available in local flavours
-    city = models.CharField("city", max_length=64, default="New Delhi")
+    city = models.CharField("city", max_length=64, default="delhi")
     # available in local flavours
     state = models.CharField("state", max_length=68, default="Delhi")
     # available in local flavours
@@ -56,6 +56,10 @@ class VendorInfo(models.Model):
     # )
 
     website = models.CharField(max_length=300, blank=True)
+    slug = models.SlugField(max_length=150, default='slug')
+
+    def __str__(self):
+        return str(self.id)
 
 
 class Category(models.Model):
@@ -140,7 +144,7 @@ class Category(models.Model):
         null=True,
         on_delete=models.CASCADE,
     )
-
+    city = models.CharField("city", max_length=64, default="delhi")
     boutique = models.BooleanField()
     fashiondesigner = models.BooleanField()
     groomwear = models.BooleanField()
@@ -185,3 +189,6 @@ class Category(models.Model):
     detective = models.BooleanField()
     matrimonialagent = models.BooleanField()
     cookinginstructor = models.BooleanField()
+
+    def __str__(self):
+        return str(self.id) + ' - ' + str(self.vendor)

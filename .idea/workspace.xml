@@ -2,14 +2,307 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="733e1518-2ad6-4683-b632-1de6ed3f3b4a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/fancybox/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/fancybox/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/fancybox/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/fancybox/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/fancybox/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/indexstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/login-register.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/band.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/card11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/card12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/card13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/card13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/card14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/agents.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/apperals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/event.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/grooming.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/pundit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/services.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/travel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/categories/venue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/cities/bangalore.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/cities/chandigarh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/cities/delhi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/cities/hyderabad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/cities/kolkata.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/cities/mumbai.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/covers/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/covers/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/covers/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/covers/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/covers/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/covers/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/covers/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/covers/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/download" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/icons/custom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/icons/loan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/icons/new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/icons/registry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/lawn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/low-poly01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/photog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/puchase_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/sample-item/gal1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/sample-item/gal2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/sample-item/gal3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/sample-item/gal4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/slides/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/slides/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/wedplan.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/works/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/works/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/works/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/works/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/works/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/works/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/works/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/img/works/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/jquery.fancybox-media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/jquery.fancybox.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/login-register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/portfolio/jquery.quicksand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/portfolio/setting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/static/js/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/account_inactive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/email.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/email/email_confirmation_message.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/email/email_confirmation_signup_message.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/email/email_confirmation_signup_subject.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/email/email_confirmation_subject.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/email/password_reset_key_message.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/email/password_reset_key_subject.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/email_confirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/logout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/cannot_delete_primary_email.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/email_confirmation_sent.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/email_confirmed.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/email_deleted.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/logged_in.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/logged_out.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/password_changed.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/password_set.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/primary_email_set.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/messages/unverified_primary_email.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/password_change.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/password_reset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/password_reset_done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/password_reset_from_key.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/password_reset_from_key_done.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/password_set.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/signup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/signup_closed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/snippets/already_logged_in.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/verification_sent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/account/verified_email_required.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/homeapp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/openid/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/openid/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/authentication_error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/connections.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/login_cancelled.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/messages/account_connected.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/messages/account_connected_other.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/messages/account_disconnected.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/signup.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/snippets/login_extra.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/homeapp/templates/socialaccount/snippets/provider_list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/custom-fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/fancybox/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/fancybox/fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/fancybox/fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/fancybox/fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/fancybox/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/indexstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/login-register.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/next.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/searchpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/customicon/Icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/customicon/Icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/customicon/Icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/customicon/Icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/band.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/card11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/card12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/card13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/card13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/card14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/agents.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/apperals.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/event.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/grooming.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/music.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/pundit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/services.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/travel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/categories/venue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/covers/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/covers/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/covers/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/covers/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/covers/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/covers/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/covers/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/covers/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/default.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/download" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/icons/custom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/icons/loan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/icons/new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/icons/registry.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/lawn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/low-poly01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/photog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/puchase_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/sample-item/gal1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/sample-item/gal2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/sample-item/gal3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/sample-item/gal4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/slides/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/slides/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/wedplan.JPG" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/works/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/works/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/works/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/works/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/works/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/works/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/works/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/img/works/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/bootstrap-2.3.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/google-code-prettify/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/google-code-prettify/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jRate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jquery.fancybox-media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jquery.fancybox.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/login-register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/portfolio/jquery.quicksand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/portfolio/setting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/quicksand/jquery.quicksand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/quicksand/setting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/searchpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/js/searchresult.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/dist/bower/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/dist/responsive-nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/dist/responsive-nav.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/dist/styles/responsive-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/src/bower/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/src/helpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/src/polyfills.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/src/responsive-nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/src/styles/responsive-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/test/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/test/helpers.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/test/polyfills.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/client/test/responsive-nav.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/advanced-left-navigation/debut_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/advanced-left-navigation/debut_dark_@2X.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/advanced-left-navigation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/advanced-left-navigation/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/advanced/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/advanced/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/callback/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/custom-toggle/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/custom-toggle/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/icons/responsivenav.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/icons/responsivenav.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/icons/responsivenav.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/icons/responsivenav.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/ie-support-using-respondjs/hamburger-retina.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/ie-support-using-respondjs/hamburger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/ie-support-using-respondjs/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/ie-support-using-respondjs/respond.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/ie-support-using-respondjs/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/multiple-navigations-combined/hamburger-retina.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/multiple-navigations-combined/hamburger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/multiple-navigations-combined/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/multiple-navigations-combined/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/multiple-navigations/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/open-navigation-below/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/public-events/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/require-js/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/require-js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/require-js/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/demos/simple/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/responsive-nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/responsive-nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/static/responsive/responsive-nav.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/searchapp/templates/searchapp/searchpage.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeapp/static/css/style.css" afterPath="$PROJECT_DIR$/homeapp/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeapp/templates/base.html" afterPath="$PROJECT_DIR$/homeapp/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchapp/templates/searchapp/searchpage.html" afterPath="$PROJECT_DIR$/searchapp/templates/searchapp/searchpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchapp/admin.py" afterPath="$PROJECT_DIR$/searchapp/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchapp/models.py" afterPath="$PROJECT_DIR$/searchapp/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchapp/urls.py" afterPath="$PROJECT_DIR$/searchapp/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchapp/views.py" afterPath="$PROJECT_DIR$/searchapp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.html" afterPath="$PROJECT_DIR$/templates/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wedding/settings.py" afterPath="$PROJECT_DIR$/wedding/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wedding/urls.py" afterPath="$PROJECT_DIR$/wedding/urls.py" />
     </list>
     <ignored path="wedding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +334,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/searchapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchapp/urls.py">
+        <entry file="file://$PROJECT_DIR$/userdata/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
@@ -53,21 +356,58 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homeapp/templates/base.html">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userdata/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="23" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchapp/views.py">
+      <file leaf-file-name="wishlist.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/userdata/wishlist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/searchapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#2222#4393#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/userdata/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wedding/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -76,66 +416,18 @@
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="94" column="59" selection-start-line="94" selection-start-column="59" selection-end-line="94" selection-end-column="59" />
+            <state relative-caret-position="119">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchpage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/searchapp/templates/searchapp/searchpage.html">
+      <file leaf-file-name="searchpage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/searchapp/searchpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="452" column="13" selection-start-line="452" selection-start-column="13" selection-end-line="452" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homeapp/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="480" column="0" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchresult.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/searchapp/static/js/searchresult.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="304" column="38" selection-start-line="304" selection-start-column="38" selection-end-line="304" selection-end-column="38" />
-              <folding>
-                <marker date="1468755910718" expanded="true" signature="12511:12524" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homeapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homeapp/static/js/search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="310" column="71" selection-start-line="310" selection-start-column="71" selection-end-line="310" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -146,8 +438,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -158,24 +450,30 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wedding/views.py" />
-        <option value="$PROJECT_DIR$/searchapp/admin.py" />
-        <option value="$PROJECT_DIR$/wedding/settings.py" />
-        <option value="$PROJECT_DIR$/wedding/urls.py" />
         <option value="$PROJECT_DIR$/homeapp/urls.py" />
         <option value="$PROJECT_DIR$/../css/searchpage.html" />
-        <option value="$PROJECT_DIR$/searchapp/models.py" />
-        <option value="$PROJECT_DIR$/searchapp/urls.py" />
         <option value="$PROJECT_DIR$/homeapp/static/js/search.js" />
         <option value="$PROJECT_DIR$/homeapp/views.py" />
         <option value="$PROJECT_DIR$/homeapp/templates/index_searchbar.html" />
         <option value="$PROJECT_DIR$/homeapp/templates/homeapp/index.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/header.html" />
-        <option value="$PROJECT_DIR$/homeapp/templates/base.html" />
-        <option value="$PROJECT_DIR$/searchapp/static/js/searchresult.js" />
-        <option value="$PROJECT_DIR$/searchapp/views.py" />
-        <option value="$PROJECT_DIR$/searchapp/templates/searchapp/searchpage.html" />
         <option value="$PROJECT_DIR$/homeapp/static/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/header.html" />
+        <option value="$PROJECT_DIR$/searchapp/static/js/searchresult.js" />
+        <option value="$PROJECT_DIR$/searchapp/models.py" />
+        <option value="$PROJECT_DIR$/searchapp/urls.py" />
+        <option value="$PROJECT_DIR$/searchapp/admin.py" />
+        <option value="$PROJECT_DIR$/searchapp/views.py" />
+        <option value="$PROJECT_DIR$/searchapp/templates/item.html" />
+        <option value="$PROJECT_DIR$/searchapp/static/css/searchpage.css" />
+        <option value="$PROJECT_DIR$/searchapp/templates/searchapp/searchpage.html" />
+        <option value="$PROJECT_DIR$/wedding/urls.py" />
+        <option value="$PROJECT_DIR$/userdata/urls.py" />
+        <option value="$PROJECT_DIR$/userdata/views.py" />
+        <option value="$PROJECT_DIR$/templates/userdata/wishlist.html" />
+        <option value="$PROJECT_DIR$/homeapp/templates/base.html" />
+        <option value="$PROJECT_DIR$/userdata/models.py" />
+        <option value="$PROJECT_DIR$/wedding/settings.py" />
       </list>
     </option>
   </component>
@@ -216,6 +514,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -245,7 +544,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="searchapp" />
+              <option name="myItemId" value="wedding" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-portal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="userdata" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,32 +575,6 @@
               <option name="myItemId" value="searchapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="searchapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -300,81 +587,18 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="homeapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homeapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homeapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homeapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../django/website" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/projects/web/user-portal/homeapp/templates/base.html" />
@@ -657,17 +881,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25189108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12254161" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3800322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27858293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31045753" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30756843" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -697,68 +921,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/homeapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/templates/homeapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="49" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-            <element signature="e#2115#4286#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wedding/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#307#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wedding/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#639#1" expanded="false" />
-            <element signature="e#640#681#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
@@ -768,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,9 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#307#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,10 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#639#1" expanded="false" />
-            <element signature="e#640#681#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,9 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#307#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,10 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#639#1" expanded="false" />
-            <element signature="e#640#681#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -833,9 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#307#1" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,10 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#639#1" expanded="false" />
-            <element signature="e#640#681#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,13 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../css/searchpage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -893,59 +1025,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#28#0" expanded="false" />
-            <element signature="e#2115#4286#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wedding/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#307#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homeapp/templates/index_searchbar.html" />
     <entry file="file://$PROJECT_DIR$/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/homeapp/templates/homeapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wedding/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#639#1" expanded="false" />
-            <element signature="e#640#681#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homeapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeapp/templates/account/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeapp/templates/account/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeapp/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeapp/static/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/static/js/vendor.js" />
+    <entry file="file://$PROJECT_DIR$/searchapp/static/js/validate.js" />
+    <entry file="file://$PROJECT_DIR$/searchapp/static/js/login.js" />
+    <entry file="file://$PROJECT_DIR$/searchapp/static/js/item.js" />
+    <entry file="file://$PROJECT_DIR$/searchapp/static/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/static/css/next.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/static/css/item.css" />
+    <entry file="file://$PROJECT_DIR$/homeapp/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="480" column="0" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/static/js/searchresult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeapp/templates/homeapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3706">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/static/css/searchpage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/static/js/searchpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/templates/searchapp/searchpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="308" column="0" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/searchapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userdata/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
@@ -955,164 +1159,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/templates/account/email.html">
+    <entry file="file://$PROJECT_DIR$/wedding/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/templates/account/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/js/searchpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1887">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/js/searchresult.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="304" column="38" selection-start-line="304" selection-start-column="38" selection-end-line="304" selection-end-column="38" />
+        <state relative-caret-position="102">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding>
-            <marker date="1468755910718" expanded="true" signature="12511:12524" ph="..." />
+            <element signature="e#0#639#1" expanded="false" />
+            <element signature="e#640#681#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/views.py">
+    <entry file="file://$PROJECT_DIR$/userdata/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/templates/item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="168" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/userdata/wishlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homeapp/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="23" selection-start-line="35" selection-start-column="4" selection-end-line="37" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/searchapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="94" column="59" selection-start-line="94" selection-start-column="59" selection-end-line="94" selection-end-column="59" />
+        <state relative-caret-position="119">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/static/js/search.js">
+    <entry file="file://$PROJECT_DIR$/templates/searchapp/searchpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="310" column="71" selection-start-line="310" selection-start-column="71" selection-end-line="310" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/views.py">
+    <entry file="file://$PROJECT_DIR$/searchapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/js/vendor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2091">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/js/validate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-747">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2620">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/js/item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="340">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#2222#4393#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/css/next.css">
+    <entry file="file://$PROJECT_DIR$/wedding/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="272">
+          <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/static/css/item.css">
+    <entry file="file://$PROJECT_DIR$/userdata/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homeapp/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="480" column="0" selection-start-line="480" selection-start-column="0" selection-end-line="480" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchapp/templates/searchapp/searchpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="452" column="13" selection-start-line="452" selection-start-column="13" selection-end-line="452" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -30,6 +30,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'searchapp',
+    'userdata',
     'homeapp.apps.HomeappConfig',
     'django.contrib.admin',
     'django.contrib.auth',

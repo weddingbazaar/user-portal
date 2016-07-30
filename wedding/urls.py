@@ -20,6 +20,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('homeapp.urls')),
     url(r'^search/', include('searchapp.urls')),
+    url(r'^wishlist/', include('userdata.urls')),
 
     # django allauth urls
     url(r'^accounts/', include('allauth.urls')),
