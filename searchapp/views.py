@@ -1,8 +1,8 @@
-from django.shortcuts import render, get_object_or_404
-# from django.http import HttpResponse
-from .models import VendorInfo as v
-from .models import Category as c
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.shortcuts import render
+
+from .models import Category as c
+from .models import VendorInfo as v
 
 
 # Create your views here.
@@ -51,4 +51,11 @@ def search(request, **kwargs):
 
 def item(request, **kwargs):
     print(kwargs)
-    return render(request, 'item.html')
+    vinfo = v.objects.all().filter(slug=kwargs['business'])
+    print(vinfo[0].address)
+    context_data = {
+        'objlist': vinfo[0],
+        'category': kwargs['category'],
+        'city': kwargs['city'],
+    }
+    return render(request, 'item.html', context_data)
