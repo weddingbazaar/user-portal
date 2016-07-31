@@ -174,10 +174,10 @@
         <div id="main-slider" class="flexslider">
             <ul class="slides">
                 <li>
-                    <div class="image" style="; height:400px;"/>
+                    <div class="image" style="background-image: url('{% static 'img/covers/1.jpg' %}'); height:400px;"></div>
                     <div class="flex-caption">
-                        <h3 id="searchcat"></h3>
-                        <p id="subca"></p>
+                        <h3 id="searchcat">{{ category|upper }}</h3>
+                        <p id="subca">{{ city|upper }}</p>
                     </div>
                 </li>
                 </li>
@@ -312,8 +312,8 @@
                             <div class="stats">
                                 <div class="stats-container">
                                     <span class="product_price">{{ category|upper }}</span>
-                                    <span class="product_name">{{ obj.vendor }}</span>
-                                    <p>BY: <span class="product_provider">VENUE</span></p>
+                                    <span class="product_name">{{ obj.vendor.business_name }}</span>
+                                    <p>BY: <span class="product_provider">{{ obj.vendor.first_name }}</span></p>
                                     <div class="product-options">
                                         <strong>RECOMMENDED</strong>
                                         <span>22</span>
