@@ -98,7 +98,7 @@
                     <div class="box">
                         <div class="content">
                             <div class="social">
-                                <a id="facebook_login" class="circle facebook" href="#">
+                                <a id="facebook_login" class="circle facebook" href="/accounts/facebook/login/?process=login">
                                     <i class="fa fa-facebook fa-fw"></i>
                                 </a>
 
@@ -174,7 +174,8 @@
         <div id="main-slider" class="flexslider">
             <ul class="slides">
                 <li>
-                    <div class="image" style="background-image: url('{% static 'img/covers/1.jpg' %}'); height:400px;"></div>
+                    <div class="image"
+                         style="background-image: url('{% static 'img/covers/1.jpg' %}'); height:400px;"></div>
                     <div class="flex-caption">
                         <h3 id="searchcat">{{ category|upper }}</h3>
                         <p id="subca">{{ city|upper }}</p>
@@ -256,11 +257,11 @@
         <h3>CATEGORY</h3>
         <div class="">
             <ul class="list-unstyled" id="selcat">
-                <li><h5 value="aprl" id="">Apparels & Clothing <span class="glyphicon glyphicon-remove-circle"
-                                                                     style="display: none"></span></h5></li>
+                <li><h5 value="apparel" id="">Apparels & Clothing <span class="glyphicon glyphicon-remove-circle"
+                                                                        style="display: none"></span></h5></li>
                 <li><h5 value="astro">Astro/Pundit <span class="glyphicon glyphicon-remove-circle"
                                                          style="display: none"></span></h5></li>
-                <li><h5 value="beauty">Beauty & Grooming <span class="glyphicon glyphicon-remove-circle"
+                <li><h5 value="grooming">Beauty & Grooming <span class="glyphicon glyphicon-remove-circle"
                                                                style="display: none"></span></h5></li>
                 <li><h5 value="travel">Travel/Transportation <span class="glyphicon glyphicon-remove-circle"
                                                                    style="display: none"></span></h5></li>
@@ -308,7 +309,8 @@
                         <div class="view_gallery">View gallery</div>
 
                         <!-- Anchor to item page -->
-                        <a href="{% url 'searchapp:item' city=city category=category business=obj.vendor.slug %}" onclick="">
+                        <a href="{% url 'searchapp:item' city=city category=category business=obj.vendor.slug %}"
+                           onclick="">
                             <div class="stats">
                                 <div class="stats-container">
                                     <span class="product_price">{{ category|upper }}</span>
@@ -465,7 +467,7 @@
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!--<script src="menu.js"></script>-->
-{#<script src="{% static 'js/searchresult.js' %}"></script>#}
+<script src="{% static 'js/searchresult.js' %}"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
