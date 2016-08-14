@@ -1,32 +1,30 @@
 <html>
 {% load staticfiles %}
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href="{% static 'css/searchpage.css' %}" rel="stylesheet" type="text/css"/>
     <meta charset="UTF-8">
+    <!--<script src="js/searchpage.js"></script>-->
+    <script src="{% static 'js/login.js' %}"></script>
+    <title>Wedding Bazaar | One stop wedding solution | Wedding Services & Vendors</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'responsive/responsive-nav.css' %}">
+    <link href="{% static 'css/fancybox/jquery.fancybox.css' %}" rel="stylesheet">
+    <script src="{% static 'responsive/responsive-nav.js' %}"></script>
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="keywords"
           content="delhi wedding vendors, photographers, caterers, vendor reviews, deals, wedding events, marriage function, shaadi, wedding planning tools, wedding website"/>
     <meta name="description"
           content=" Wedding Services  � Best vendors in City! Find and book services hassle free! Check Deals, Events, Ideas. Search Photos, Wedding Planners, Banquets, Venues &amp; more Wedding Services."/>
     <meta name="robots" content="index,follow"/>
-    <!--<script src="js/searchpage.js"></script>-->
-    {#    <script src="{% static 'js/login.js' %}"></script>#}
-    <title>Wedding Bazaar | One stop wedding solution | Wedding Services & Vendors</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    {#    <script src="js/parse.js"></script>#}
-    <link rel="stylesheet" href="{% static 'responsive/responsive-nav.css' %}">
-    <link href="{% static 'css/fancybox/jquery.fancybox.css' %}" rel="stylesheet">
-    <script src="{% static 'responsive/responsive-nav.js' %}"></script>
-    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet"/>
-    <script src="{% static 'js/searchpage.js' %}" type="text/javascript"></script>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
-    <link href="{% static 'css/searchpage.css' %}" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!--<link rel="stylesheet" href="css/next.css"/>-->
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="{% static 'js/jquery.js' %}"/>
+    <script src="{% static 'js/jquery.js' %}"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
             integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
             crossorigin="anonymous"></script>
@@ -35,10 +33,12 @@
     <link href="{% static 'css/style.css' %}" rel="stylesheet"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{% static 'css/indexstyle.css' %}">
-    {#    <script type="text/javascript" src="{% static 'js/search.js'%}"></script>#}
+    <script type="text/javascript" src="{% static 'js/search.js' %}"></script>
     <link href="{% static 'css/login-register.css' %}" rel="stylesheet"/>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-    {#    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>#}
+
+    <script src="{% static 'js/searchresult.js' %}"></script>
+
 
 
 </head>
@@ -98,7 +98,8 @@
                     <div class="box">
                         <div class="content">
                             <div class="social">
-                                <a id="facebook_login" class="circle facebook" href="/accounts/facebook/login/?process=login">
+                                <a id="facebook_login" class="circle facebook"
+                                   href="/accounts/facebook/login/?process=login">
                                     <i class="fa fa-facebook fa-fw"></i>
                                 </a>
 
@@ -262,7 +263,7 @@
                 <li><h5 value="astro">Astro/Pundit <span class="glyphicon glyphicon-remove-circle"
                                                          style="display: none"></span></h5></li>
                 <li><h5 value="grooming">Beauty & Grooming <span class="glyphicon glyphicon-remove-circle"
-                                                               style="display: none"></span></h5></li>
+                                                                 style="display: none"></span></h5></li>
                 <li><h5 value="travel">Travel/Transportation <span class="glyphicon glyphicon-remove-circle"
                                                                    style="display: none"></span></h5></li>
                 <li><h5 value="events">Events <span class="glyphicon glyphicon-remove-circle"
@@ -299,7 +300,7 @@
 
     <div id="grid">
         {% for obj in objlist %}
-            <div class="product">
+            <div class="product" id="" onmouseover="abc()">
                 <div class="make3D">
                     <div class="product-front">
                         <div class="shadow"></div>
@@ -329,13 +330,20 @@
                         <div class="shadow"></div>
                         <div class="carousel">
                             <ul class="carousel-container">
-                                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1.jpg" alt="1"/></li>
-                                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2.jpg" alt="2"/></li>
-                                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="3"/></li>
-                                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="4"/></li>
-                                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="5"/></li>
-                                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="6"/></li>
-                                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3.jpg" alt="7"/></li>
+                                <li><img src="{% static 'img/sample-item/gal1.jpg' %}" alt="1"/>
+                                </li>
+                                <li><img src="{% static 'img/sample-item/gal1.jpg' %}" alt="2"/>
+                                </li>
+                                <li><img src="{% static 'img/sample-item/gal1.jpg' %}" alt="3"/>
+                                </li>
+                                <li><img src="{% static 'img/sample-item/gal1.jpg' %}" alt="1"/>
+                                </li>
+                                <li><img src="{% static 'img/sample-item/gal1.jpg' %}" alt="2"/>
+                                </li>
+                                <li><img src="{% static 'img/sample-item/gal1.jpg' %}" alt="3"/>
+                                </li>
+                                <li><img src="{% static 'img/sample-item/gal1.jpg' %}" alt="3"/>
+                                </li>
                             </ul>
                             <div class="arrows-perspective">
                                 <div class="carouselPrev">
@@ -355,7 +363,6 @@
                     </div>
                 </div>
             </div>
-
         {% endfor %}
     </div>
 
@@ -461,13 +468,13 @@
             } else {
                 $("#searchbar").removeClass("stick");
             }
-            ;
+
         });
     });
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!--<script src="menu.js"></script>-->
-<script src="{% static 'js/searchresult.js' %}"></script>
+<script src="{% static 'js/searchpage.js' %}"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
