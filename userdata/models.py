@@ -10,3 +10,4 @@ class UserInfo(models.Model):
         null=True,
         on_delete=models.CASCADE,
     )
+    wishlist = models.CharField(max_length=10000)
